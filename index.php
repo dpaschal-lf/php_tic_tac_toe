@@ -152,6 +152,7 @@ if(!isset($currentPlayer)){
 	<?php 
 	createAllPlayers($playerSymbols, $currentPlayer);
 	?>
+	<a href="?restart=true">reset</a>
 </header>
 <main id="gameArea">
 	<?php
